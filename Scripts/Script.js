@@ -1,7 +1,7 @@
 /*
     Auteur:     Nick Ketelaars          
-    Aanmaakdatum:        
+    Aanmaakdatum:   06-03-23        
     
-    Omschrijving
+    Portfolio Script
 */
 
