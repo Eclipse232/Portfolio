@@ -18,17 +18,52 @@
         <script src="Scripts/Script.js"></script>
 	</head>	
     <body>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <header>
+            <h1><span></span></h1>
+            <script src="Scripts/Header.js"></script>
+        </header>
+        <main>
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h2>About Me</h2>
+                <p>Write something about yourself here.</p>
+            </section>
+            <section>
+                <h2>Portfolio</h2>
+                <div class="gallery">
+                    <img src="Images/image1.jpg">
+                    <img src="Images/image2.jpg">
+                    <img src="Images/image3.jpg">
+                    <img src="Images/image4.jpg">
+                </div>
+            </section>
+            <section>
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea><br>
+    
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright © My Portfolio</p>
+        </footer>  
     </body>
 </html>
